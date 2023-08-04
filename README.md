@@ -1,2 +1,2 @@
 # chootube
-Simplify the interaction with the YouTube API
+Simplify the interaction with the YouTube API.

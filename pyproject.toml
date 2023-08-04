@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chootube"
+version = "0.1.0"
+description = "Simplify the interaction with the YouTube API."
+authors = ["Wessel Vonk <wjc.vonk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chootube", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-api-python-client = "^2.95.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
