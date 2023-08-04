@@ -1,10 +1,9 @@
-from typing import Any, Iterable, TypeAlias
+from typing import Any, Iterable
 
 from googleapiclient.discovery import Resource
 
 from chootube.factory import make_youtube
-
-Response: TypeAlias = dict[str, Any]
+from chootube.typing import Response
 
 
 class FetchException(Exception):
